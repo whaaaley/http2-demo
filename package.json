@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "bikeforce server",
+  "main": "index.js",
+  "scripts": {
+    "env": "node env.js",
+    "start": "env $(cat .env) node index.js"
+  },
+  "dependencies": {
+  }
+}
